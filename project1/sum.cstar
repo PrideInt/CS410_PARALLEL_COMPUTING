@@ -1,0 +1,11 @@
+#include <stdlib.h>
+
+/* Written by Pride Yin */
+
+int sum, i;
+
+main() {
+    for (i = 1; i <= 100; i++) sum += i;
+
+    cout << "Sum: " << sum << endl;
+}

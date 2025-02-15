@@ -1,0 +1,21 @@
+    1 #include <stdlib.h>
+    2 
+    3 /* Written by Pride Yin */
+    4 
+    5 int n, i;
+    6 float factorial;
+    7 
+    8 main() {
+    9     cout.precision(8);
+   10     
+   11     cout << "Enter a positive integer: ";
+   12     cin >> n;
+   13 
+   14     if (n <= 0) exit(1);
+   15     
+   16     factorial = 1;
+   17 
+   18     for (i = 1; i <= n; i++) factorial *= i;
+   19     
+   20     cout << "Factorial: " << factorial << endl;
+   21 }
